@@ -104,7 +104,7 @@
  '(org-adapt-indentation t)
  '(org-agenda-files
    (quote
-    ("~/Dropbox/test.org" ~/Dropbox/job_journal.org)))
+    ("~/Dropbox/test.org" "~/Dropbox/job_journal.org")))
  '(org-agenda-property-list (quote (":LOCATION: :CATEGORY: :GTD:")))
  '(org-agenda-skip-scheduled-if-deadline-is-shown t)
  '(org-archive-default-command (quote org-archive-to-archive-sibling))
@@ -1414,7 +1414,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Github integration
 ;;;;;;;;;;;;;;;;;;;;;;;;;;
-(setq paradox-github-token "523e06b97424b38c0393f9117d377f3b3895d0c3")
+(setq paradox-github-token "YOUR-TOKEN")
 
 
 
